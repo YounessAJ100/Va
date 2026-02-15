@@ -80,8 +80,8 @@ function createHeart() {
 let player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('youtube-player', {
-        height: '0',
-        width: '0',
+        height: '1',
+        width: '1',
         videoId: 'O6p-_SY5DfM', // User provided video ID
         playerVars: {
             'playsinline': 1,
